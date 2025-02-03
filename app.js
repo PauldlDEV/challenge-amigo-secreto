@@ -39,7 +39,8 @@ function validarBlanco() {
 }
 
 function sortearAmigo() {
-  let numeroAleatorio = Math.floor(Math.random() * listaNombres.length + 1);
+  let numeroAleatorio = Math.floor(Math.random() * listaNombres.length);
+  console.log(numeroAleatorio);
   let amigoSecreto = [];
   amigoSecreto.push(`Tu amig@ secret@ es ${listaNombres[numeroAleatorio]}!!`);
 
