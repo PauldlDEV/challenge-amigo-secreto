@@ -9,8 +9,8 @@ function agregarAmigo() {
     listaNombres.push(nombre);
     console.log(listaNombres);
     mostrarAmigos();
-    valoresIniciales();
   }
+  valoresIniciales();
 }
 
 function mostrarAmigos() {
